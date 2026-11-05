@@ -2,7 +2,7 @@
   "id": "bakatsuki-ln",
   "name": "Baka-Tsuki Light Novels",
   "description": "Search and read light novels from Baka-Tsuki. Text is rendered as image pages.",
-  "manifestURI": "https://raw.githubusercontent.com/YOUR_USERNAME/seanime-lightnovel-provider/main/src/manga/bakatsuki-ln/manifest.json",
+  "manifestURI": "https://raw.githubusercontent.com/YOUR_USERNAME/seanime-lightnovel-provider/main/manifest.json",
   "version": "0.1.0",
   "author": "Vutani",
   "type": "manga-provider",

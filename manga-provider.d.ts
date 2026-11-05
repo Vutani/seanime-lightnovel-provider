@@ -1,0 +1,9 @@
+// Minimal typings for Seanime manga providers (editor hints only).
+declare type QueryOptions = { query: string; year?: number }
+declare type SearchResult = { id: string; title: string; synonyms?: string[]; year?: number; image?: string }
+declare type ChapterDetails = {
+  id: string; url: string; title: string; chapter: string; index: number
+  scanlator?: string; language?: string; rating?: number; updatedAt?: string
+}
+declare type ChapterPage = { url: string; index: number; headers: { [key: string]: string } }
+declare type Settings = { supportsMultiLanguage?: boolean; supportsMultiScanlator?: boolean }
